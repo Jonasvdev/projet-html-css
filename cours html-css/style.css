@@ -1,0 +1,115 @@
+:root{
+   --color: rgb(64, 92, 129);
+   --color2:#806732 ;
+   --color3:#393b4b;
+   --color4:pink ;
+}
+
+
+
+body{
+    background-color: rgb(208, 211, 216);
+    height: auto;
+    display: grid;
+    margin-left: 3%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    background-color: rgba(237, 239, 240, 0.973);
+    width: calc(100% - 50px);
+    padding: 20px 20px 60px;
+    box-shadow: 6px 11px 0px rgb(240, 197, 9);
+    border-radius: 5px;
+    backdrop-filter: rgb(1, 1, 2);
+
+
+}
+
+
+
+label{
+    border-bottom-left-radius: 10;
+
+}
+
+h1{
+    margin-bottom: 24px;
+    /* background-color: rgb(12, 12, 12); */
+    color: brown;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: 15%;
+    
+}
+
+
+.checkbox.option1{
+    color: blue;
+}
+.card:before {
+    content: "\2606" "\2606" "\2606" "\2606\2606";
+    position: absolute;
+    top: 17%;
+    right: 20px;
+    color: hsl(41, 98%, 52%);
+    font-size: 2rem;
+
+    
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.polygon{
+        width: 100px;
+        height: 150px;
+        background-color: rgb(238, 201, 79);
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        top: 14%;
+        background: linear-gradient(150deg, yellow 10% , red 100%)
+
+
+
+}
+.polygon-container {
+    filter: drop-shadow(yellow);
+   place-self: center;
+
+}
+.polygon:after {
+    content: "un texte";
+    position : absolute; 
+    color:var(--color3);
+    background
+    : rgb(7, 45, 128);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50 ,-50%);
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
